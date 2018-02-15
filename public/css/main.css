@@ -95,4 +95,68 @@ body {
 
 .profile{
   color: black;
+  background-color:#e6e6e6;
+}
+
+img[alt="photo"]{
+  width: 8vw;
+  margin-top: 3rem;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+i{
+  display: inline;
+}
+
+.information{
+  border: 3px solid white;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.icon{
+  font-size: 3rem;
+  text-align: center;
+}
+.icon:before {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: black;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+/*aplicando línea laterale a la estrella*/
+.icon:after {
+  /*no se aplica ningun texto*/
+  content: " ";
+  /*se posiciona al lado de la estrella*/
+  display: inline-block;
+  /*tamaño de la linea*/
+  width: 100px;
+  height: 5px;
+  /*color de fondo*/
+  background: black;
+  /*posicionamiento al medio de la estrella*/
+  margin-bottom: 10px;
+
+}
+
+.splash{
+  text-align: center;
+  background: linear-gradient(650deg,#b2077b,#530060);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left:0;
 }

@@ -10,10 +10,9 @@ $(document).ready(function() {
   function profile() {
     let link = localStorage.pictureUrl;
     $photo.attr('src', link);
-    $name.text(localStorage.Name);
-    $lastname.text(localStorage.lastName);
+    $name.text(localStorage.Name+ localStorage.lastName);
     $studyPlace.text(localStorage.place);
-    $contacts.text(localStorage.connections);
+    $contacts.text('Contactos :'+ localStorage.connections);
   }
   profile();
 });
