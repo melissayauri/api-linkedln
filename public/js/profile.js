@@ -9,7 +9,7 @@ function profile() {
   let url = localStorage.pictureUrl;
   $photo.attr('src', url);
 
-  $name.text(localStorage.firstName);
+  $name.text(localStorage.Name);
   $lastname.text(localStorage.lastName);
   $studyPlace.text(localStorage.place);
   $contacts.text(localStorage.connections);
