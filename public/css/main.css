@@ -9,7 +9,7 @@
 body {
   font-family: 'Lobster', cursive;
   text-align: center;
-  color: #fff; 
+  color: #fff;
 }
 
 .container {
@@ -91,4 +91,8 @@ body {
 
 .container-linkedin-add {
   margin-bottom: 2rem;
+}
+
+.profile{
+  color: black;
 }
