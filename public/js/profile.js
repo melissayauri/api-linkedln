@@ -1,22 +1,21 @@
-$(document).ready(function() {
-  /* variables para posicionar los datos*/
-  let $photo = $('#photo');
-  let $name = $('#name');
-  let $studyPlace = $('#study-place');
-  let $contacts = $('#contacts');
 
-  /* función para traer los datos de la persona que inicia sesión*/
-  function profile() {
-    /* imagen*/
-    let link = localStorage.pictureUrl;
-    /* incorporando la ruta a la imagen*/
-    $photo.attr('src', link);
-    /* apellido y nombre*/
-    $name.text(localStorage.Name + localStorage.lastName);
-    /* referencia*/
-    $studyPlace.text(localStorage.place);
-    /* contactos*/
-    $contacts.text('Contactos :' + localStorage.contacts);
-  }
-  profile();
+window.addEventListener('load', function() {
+  let container = document.getElementById('information');
+  /* creando la foto*/
+  let img = document.createElement('img');
+  img.setAttribute('alt', 'photo');
+  img.setAttribute('src', localStorage.picture);
+  container.appendChild(img);
+  /* creando el nombre y apellido*/
+  let name = document.createElement('h1');
+  name.innerText = localStorage.Name + localStorage.lastName;
+  container.appendChild(name);
+  /* creando referencia*/
+  let reference = document.createElement('p');
+  reference.innerText = localStorage.place;
+  container.appendChild(reference);
+  /* creando el n° de contactos*/
+  let contacts = document.createElement('p');
+  contacts.innerText = 'Contactos :' + localStorage.contacts;
+  container.appendChild(contacts);
 });

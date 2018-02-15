@@ -99,7 +99,7 @@ body {
 }
 
 img[alt="photo"]{
-  width: 8vw;
+  width: 20vw;
   margin-top: 3rem;
   border: 2px solid gray;
   border-radius: 10px;
@@ -116,6 +116,8 @@ i{
 }
 
 .icon{
+  font-family: FontAwesome;
+  content: "f0eb";
   font-size: 3rem;
   text-align: center;
 }
@@ -149,14 +151,9 @@ i{
 
 }
 
-.splash{
-  text-align: center;
-  background: linear-gradient(650deg,#b2077b,#530060);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  z-index: 1000;
-  position: fixed;
-  top: 0;
-  left:0;
+@media (min-width: 992px){
+  img[alt="photo"]{
+    width: 10vw;
+
+  }
 }
