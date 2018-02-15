@@ -6,7 +6,7 @@ function onLinkedInLoad() {
 // Handle the successful return from the API call
 function onSuccess(data) {
   console.log(data);
-  localStorage.Name = data.firstName;
+  localStorage.name = data.firstName;
   localStorage.place = data.headline;
   localStorage.lastName = data.lastName;
 

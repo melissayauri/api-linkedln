@@ -7,42 +7,58 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NY times</title>
   <!-- Import Font Google-->
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <!--Import Bootstrap.css-->
   <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/icons/icomoon/style.css">
+  <link rel="shortcut icon" href="../assets/images/linkedin.png">
   <link type="text/css" rel="stylesheet" href="../css/main.css">
 </head>
-<body>
+
+<body class="profile">
+  <!-- Header -->
   <header>
-    <nav class=" navbar-inverse  principal">
+    <nav class=" navbar-inverse principal navbar-container">
       <div class="container-fluid">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            <img alt="logo" src="../assets/img/linkelind.png">
+          <a class="navbar-brand link-logo" href="#">
+            <h4 class="logo">Linked</h4>
+            <span class="icon-linkedin2"></span>
           </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
+            <li class="select">
+              <a href="#">Link</a>
+            </li>
+            <li class="select">
+              <a href="#">Close</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+  <!-- Profile Section -->
   <section>
     <ul class="nav nav-tabs">
-      <li role="presentation" class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
-      <li role="presentation"><a href="#homes" data-toggle="tab"></a>Otros</li>
-      <li role="presentation"><a href="../index.html" data-toggle="tab"></a></li>
-  </ul>
-  <div class="tab-content clearfix">
+      <li role="presentation" class="active">
+        <a href="#profile" data-toggle="tab">Profile</a>
+      </li>
+      <li role="presentation">
+        <a href="#homes" data-toggle="tab"></a>Otros</li>
+      <li role="presentation">
+        <a href="" data-toggle="tab"></a>
+      </li>
+    </ul>
+    <div class="tab-content clearfix">
       <div class="tab-pane active" id="profile">
         <div class="container-fluid">
           <div class="row">
@@ -55,10 +71,9 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
-</section>
+  </section>
   <!-- Import jQuery and Bootstrap.js -->
   <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
