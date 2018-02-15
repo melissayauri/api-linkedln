@@ -7,6 +7,28 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lobster', cursive;
   text-align: center;
+color: black;
+}
+img[alt="logo"]{
+  width: 20vw;
+  height: 6vh;
+  margin-bottom: 3rem;
+}
+
+.background{
+  background-image: url(../assets/img/fondo.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  opacity: 0.6;
+  color: black;
+
+}
+
+
+.title{
+  margin-top: 3rem;
+  margin-bottom: 35rem;
 }
