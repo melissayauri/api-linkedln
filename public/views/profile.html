@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NY times</title>
+  <!-- Import Font Google-->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+  <!--Import Bootstrap.css-->
+  <link type="text/css" rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <header>
+    <nav class=" navbar-inverse  principal">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img alt="logo" src="../assets/img/linkelind.png">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Link</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+      <li role="presentation"><a href="#homes" data-toggle="tab"></a>Otros</li>
+      <li role="presentation"><a href="../index.html" data-toggle="tab"></a></li>
+  </ul>
+  <div class="tab-content clearfix">
+      <div class="tab-pane active" id="profile">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <img src="" alt="" id="photo">
+              <h1 id="name"></h1>
+              <h3 id="lastname"></h3>
+              <p id="study-place"></p>
+              <p id="contacts"></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+  <!-- Import jQuery and Bootstrap.js -->
+  <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/profile.js"></script>
+</body>
+
+</html>

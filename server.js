@@ -6,4 +6,4 @@ function turnOn() {
   console.log('Server on');
 }
 
-app.use(express.static('public')); 
+app.use(express.static('public'));
