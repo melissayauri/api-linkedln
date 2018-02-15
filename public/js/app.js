@@ -16,6 +16,7 @@ function onSuccess(data) {
 function view(data) {
   localStorage.contacts = data.numConnections;
   window.location.href = 'views/profile.html';
+  localStorage.picture=localStorage.pictureUrl
 }
 
 // Handle an error response from the API call
