@@ -1,13 +1,13 @@
-# LINKEDLN - La mayor red profesional del mundo
+# LINKEDIN - La mayor red profesional del mundo
 
 ## Objetivo
 Realizar una plataforma con el API Linkedin.
 
 ## Herramientas
-* Javascript
-* Html
+* Javascript: Para el manejo de la API linkedin.
+* Html: Para la estructura del documento.
 * [Api Linkedin](https://developer.linkedin.com/)
-* Bootstrap
+* Bootstrap: Framework para el diseño del documento.
 
 ## Flujo de aplicación
 - La plataforma te solicita que inicies sesión con linkedin.
